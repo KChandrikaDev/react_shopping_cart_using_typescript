@@ -1,0 +1,65 @@
+.login{
+    /* margin-top: 70px !important; */
+    min-width: 30% !important;
+    background-image: linear-gradient(rgb(16, 16, 17),rgb(16, 16, 17));
+   
+}
+.login-box{
+  background-image: linear-gradient(rgb(23, 23, 24,.7),rgb(15, 15, 15,.8));
+}
+.login-box:hover,
+.login-box:focus
+{
+  background-image: linear-gradient(rgb(242, 242, 247),rgb(234, 234, 245));
+}
+@media screen and (max-width: 990px) {
+    .login{
+        margin-top: 100px !important;
+        min-width: 50% !important;
+       
+    }
+ 
+  }
+@media screen and (max-width: 480px) {
+    .login{
+        margin-top: 100px !important;
+        min-width: 50% !important;
+       
+    }
+ 
+  }
+  @media screen and (max-width: 300px) {
+    .login{
+        margin-top: 100px !important;
+        min-width: 80% !important;
+       
+    }
+  }
+.login-button{
+    min-width: 100%;
+   font-size: 16px;
+   text-align: center;
+}
+#animate-area-login {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  /* padding-bottom: 60px; */
+  background:linear-gradient(rgb(0,0,0,.1),rgb(0,0,0,.2)), url(	https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148944164.jpg?size=626&ext=jpg) ;
+  /* background-image: url(../../images/b2.jpg); */
+  background-position: 0px 0px;
+  /* background-repeat: repeat-y; */
+  animation: animatedBackground 10s linear infinite ;
+  /* background-size: cover; */
+
+min-width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
